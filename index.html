@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alta de horario - Elegir clase</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <form class="tarjeta estrecha" action="horario.html" method="get">
+    <h1>Alta de horario</h1>
+    <p class="ayuda">Elige la clase para la que vas a crear el horario.</p>
+
+    <label class="campo" for="clase">Clase</label>
+    <select class="grande" id="clase" name="clase" required>
+      <option value="">Selecciona una clase</option>
+      <option value="1DAW">1DAW</option>
+      <option value="2DAW">2DAW</option>
+      <option value="1GA">1GA</option>
+      <option value="2GA">2GA</option>
+    </select>
+
+    <div class="acciones">
+      <input type="submit" value="Siguiente">
+    </div>
+  </form>
+</body>
+</html>
